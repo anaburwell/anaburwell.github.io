@@ -87,13 +87,25 @@
 	
 	}
 	#IMG_4161 {
-		opacity: 0.343;
+		opacity: 0.771;
 		position: absolute;
 		width: 2032px;
 		height: 1524px;
 		left: -56px;
 		top: -222px;
 		overflow: visible;
+	}
+	#Rectangle_30 {
+		opacity: 0.765;
+		fill: rgba(79,113,70,1);
+	}
+	.Rectangle_30 {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 1080px;
+		left: 247px;
+		top: 0px;
 	}
 	#Rectangle_1 {
 		fill: rgba(8,8,8,1);
@@ -117,17 +129,33 @@
 		left: 0px;
 		top: 0px;
 	}
-	#Image_1 {
+	#Rectangle_27 {
+		opacity: 0.49;
+		fill: rgba(236,252,213,1);
+	}
+	.Rectangle_27 {
 		position: absolute;
-		width: 595px;
-		height: 870px;
-		left: 0px;
-		top: 223px;
 		overflow: visible;
+		width: 1920px;
+		height: 346px;
+		left: 0px;
+		top: 221px;
+	}
+	#Rectangle_28 {
+		opacity: 0.49;
+		fill: rgba(236,252,213,1);
+	}
+	.Rectangle_28 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 89px;
+		left: 0px;
+		top: 441px;
 	}
 	#ANA_BURWELL {
 		left: 851px;
-		top: 223px;
+		top: 263px;
 		position: absolute;
 		overflow: visible;
 		width: 943px;
@@ -137,11 +165,11 @@
 		font-style: normal;
 		font-weight: bold;
 		font-size: 130px;
-		color: rgba(57,26,6,1);
+		color: rgba(43,39,53,1);
 	}
 	#portfolio {
 		left: 851px;
-		top: 287px;
+		top: 327px;
 		position: absolute;
 		overflow: visible;
 		width: 523px;
@@ -168,7 +196,7 @@
 		width: 901px;
 		height: 88px;
 		left: 880px;
-		top: 571px;
+		top: 641px;
 		--web-animation: fadein undefineds undefined;
 		--web-action-type: page;
 		--web-action-target: Interior_Design.html;
@@ -189,7 +217,7 @@
 		width: 901px;
 		height: 88px;
 		left: 880px;
-		top: 723px;
+		top: 793px;
 		--web-animation: fadein undefineds undefined;
 		--web-action-type: page;
 		--web-action-target: Architecture.html;
@@ -210,27 +238,11 @@
 		width: 901px;
 		height: 88px;
 		left: 880px;
-		top: 875px;
+		top: 945px;
 		--web-animation: fadein undefineds undefined;
 		--web-action-type: page;
 		--web-action-target: Other_Projects.html;
 		cursor: pointer;
-	}
-	#Group_2 {
-		position: absolute;
-		width: 399.648px;
-		height: 281.583px;
-		left: 373px;
-		top: 767px;
-		overflow: visible;
-	}
-	#Group_1 {
-		position: absolute;
-		width: 399.648px;
-		height: 281.583px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
 	}
 	#Group_3 {
 		position: absolute;
@@ -240,7 +252,7 @@
 		top: 7.211px;
 		overflow: visible;
 	}
-	#Group_1_v {
+	#Group_1 {
 		position: absolute;
 		width: 100.47px;
 		height: 70.789px;
@@ -250,7 +262,7 @@
 	}
 	#Undergraduate_at_Syracuse_Univ {
 		left: 880px;
-		top: 417px;
+		top: 457px;
 		position: absolute;
 		overflow: visible;
 		width: 912px;
@@ -264,7 +276,7 @@
 	}
 	#Interior_Design_x {
 		left: 1184px;
-		top: 588px;
+		top: 658px;
 		position: absolute;
 		overflow: visible;
 		width: 277px;
@@ -345,7 +357,7 @@
 	}
 	#Architecture_ {
 		left: 1218px;
-		top: 740px;
+		top: 810px;
 		position: absolute;
 		overflow: visible;
 		width: 226px;
@@ -363,7 +375,7 @@
 	}
 	#Other_Projects_ {
 		left: 1199px;
-		top: 892px;
+		top: 962px;
 		position: absolute;
 		overflow: visible;
 		width: 265px;
@@ -414,6 +426,22 @@
 		font-weight: normal;
 		font-size: 23px;
 		color: rgba(239,251,217,1);
+	}
+	#Group_9 {
+		position: absolute;
+		width: 655.05px;
+		height: 461.534px;
+		left: 122.47px;
+		top: 482.233px;
+		overflow: visible;
+	}
+	#Group_8 {
+		position: absolute;
+		width: 655.05px;
+		height: 461.534px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
 	}
 </style>
 <script id="applicationScript">
@@ -3329,8 +3357,12 @@ window.application = new Application();
 </head>
 <body>
 <div id="Home">
-	<img id="IMG_4161" src="IMG_4161.png" srcset="IMG_4161.png 1x, IMG_4161@2x.png 2x">
+	<img id="IMG_4161" src="IMG_4161.png" srcset="IMG_4161.png 1x">
 		
+	<svg class="Rectangle_30">
+		<rect id="Rectangle_30" rx="0" ry="0" x="0" y="0" width="375" height="1080">
+		</rect>
+	</svg>
 	<svg class="Rectangle_1">
 		<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="82">
 		</rect>
@@ -3339,8 +3371,14 @@ window.application = new Application();
 		<rect id="Rectangle_10" rx="0" ry="0" x="0" y="0" width="142" height="82">
 		</rect>
 	</svg>
-	<img id="Image_1" src="Image_1.png" srcset="Image_1.png 1x, Image_1@2x.png 2x">
-		
+	<svg class="Rectangle_27">
+		<rect id="Rectangle_27" rx="0" ry="0" x="0" y="0" width="1920" height="346">
+		</rect>
+	</svg>
+	<svg class="Rectangle_28">
+		<rect id="Rectangle_28" rx="0" ry="0" x="0" y="0" width="1920" height="89">
+		</rect>
+	</svg>
 	<div id="ANA_BURWELL">
 		<span>ANA BURWELL</span>
 	</div>
@@ -3359,13 +3397,8 @@ window.application = new Application();
 		<rect onclick="application.goToTargetView(event)" id="Rectangle_4" rx="0" ry="0" x="0" y="0" width="901" height="88">
 		</rect>
 	</svg>
-	<div id="Group_2">
-		<img id="Group_1" src="Group_1.png" srcset="Group_1.png 1x, Group_1@2x.png 2x">
-			
-		</svg>
-	</div>
 	<div id="Group_3">
-		<img id="Group_1_v" src="Group_1_v.png" srcset="Group_1_v.png 1x, Group_1_v@2x.png 2x">
+		<img id="Group_1" src="Group_1.png" srcset="Group_1.png 1x">
 			
 		</svg>
 	</div>
@@ -3401,6 +3434,11 @@ window.application = new Application();
 	</div>
 	<div onclick="application.goToTargetView(event)" id="Other_Projects_ba">
 		<span>Other Projects</span>
+	</div>
+	<div id="Group_9">
+		<img id="Group_8" src="Group_8.png" srcset="Group_8.png 1x">
+			
+		</svg>
 	</div>
 </div>
 </body>
